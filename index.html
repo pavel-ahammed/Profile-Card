@@ -44,10 +44,10 @@
   </head>
   <body class="h-screen flex justify-center items-center bg-gray-100">
     <div
-      class="max-w-sm mx-auto px-10 py-5 bg-gradient-to-r from-cyan-200 to-violet-200 rounded-xl shadow-lg space-y-4 relative"
+      class="sm:flex sm:items-center sm:space-x-5 sm:text-left sm:p-5 max-w-sm mx-auto px-10 py-5 bg-gradient-to-r from-cyan-200 to-violet-200 rounded-xl shadow-lg space-y-4 relative"
     >
       <div
-        class="custom-shape-divider-bottom-1738091074 fill-white absolute top-0 left-0 w-full overflow-hidden rotate-120"
+        class="sm:hidden custom-shape-divider-bottom-1738091074 fill-white absolute top-0 left-0 w-full overflow-hidden rotate-120"
       >
         <svg
           data-name="Layer 1"
@@ -64,10 +64,12 @@
       </div>
       <img
         src="./assets/pexels-olly-839011 (1).jpg"
-        class="mx-auto h-24 w-24 object-cover rounded-full ring ring-white"
+        class="mx-auto h-24 w-24 object-cover rounded-full ring ring-white sm:shrink-0"
       />
-      <div class="text-center space-y-4">
-        <div class="space-y-1">
+      <div
+        class="text-center space-y-4 sm:space-y-2 sm:text-left sm:space-x-2 sm:flex sm:flex-col sm:items-start"
+      >
+        <div class="space-y-1 sm:space-y-0">
           <p class="text-lg font-semibold">Learn with Pavel</p>
           <p class="font-medium text-sm text-gray-500">Youtube Channel</p>
         </div>
@@ -76,7 +78,7 @@
         >
           Visit Now
         </button>
-        <div class="flex justify-between">
+        <div class="flex justify-between sm:hidden">
           <a
             href="#"
             class="no-underline w-9 h-9 hover:bg-black hover:text-white flex items-center justify-center rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150s"
